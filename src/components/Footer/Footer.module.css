@@ -1,0 +1,28 @@
+.footerBlock {
+    height: 40vh;
+    background-color: lightblue;
+}
+.footerContainer {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    flex: 1 1 160px;
+}
+.title {
+    background-color: moccasin;
+    text-decoration: underline;
+}
+.feedbackContainer {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.feedbackIcon {
+    width: 60px;
+    height: 60px;
+    background-color: orangered;
+}
