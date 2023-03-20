@@ -1,5 +1,6 @@
 .projectsBlock {
-    height: 100vh;
+    padding: 50px 0 50px 0;
+    min-height: 100vh;
     background-color: orange;
 }
 .projectsContainer {
@@ -7,7 +8,6 @@
     justify-content: flex-start;
 }
 .title {
-    text-decoration: underline;
     background-color: aqua;
 }
 .projects {

@@ -12,11 +12,11 @@ const Project:FC<ProjectPropsType> = (props) => {
     return (
         <div className={styles.project}>
             <div className={styles.projectImage} >
-                <button>watch</button>
+                <a href="" className={styles.button}>watch</a>
             </div>
-            <div className={styles.description}>
-                <h4>{props.name}</h4>
-                <div>{props.desc}</div>
+            <div className={styles.aboutProject}>
+                <h4 className={styles.projectName}>{props.name}</h4>
+                <div className={styles.projectDescription}>{props.desc}</div>
             </div>
         </div>
     );

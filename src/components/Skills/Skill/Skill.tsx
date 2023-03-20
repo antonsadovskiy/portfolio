@@ -12,7 +12,7 @@ const Skill:FC<SkillsPropsType> = (props) => {
             <div className={styles.icon}>
                 <img src="" alt="icon"/>
             </div>
-            <h3>{props.technology}</h3>
+            <h3 className={styles.technologyName}>{props.technology}</h3>
             <span className={styles.description}>{props.description}</span>
         </div>
     );

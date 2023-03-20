@@ -6,6 +6,7 @@ import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import RemoteWork from "./components/RemoteWork/RemoteWork";
 import Footer from "./components/Footer/Footer";
+import Contacts from "./components/Contacts/Contacts";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Skills/>
             <Projects/>
             <RemoteWork/>
+            <Contacts/>
             <Footer/>
         </div>
     );

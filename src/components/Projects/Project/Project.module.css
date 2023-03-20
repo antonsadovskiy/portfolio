@@ -1,5 +1,5 @@
 .project {
-    width: 500px;
+    width: 400px;
     background-color: lightcoral;
     display: flex;
     flex-direction: column;
@@ -10,18 +10,25 @@
     justify-content: center;
     width: 100%;
     height: 300px;
-    background-color: moccasin;
+    /*background-image: url("/src/assets/todolist-photo.jpg");*/
+    background-color: orangered;
+    background-size: cover;
+    background-position: center;
+    /*background-size: cover;*/
 }
-.description {
+.button {
+
+}
+.aboutProject {
     display: flex;
     flex-direction: column;
 }
-.description h4 {
+.projectName {
     background-color: lavender;
     width: 150px;
     margin: 10px;
 }
-.description div {
+.projectDescription {
     background-color: lavender;
     /*width: 150px;*/
     margin: 10px;
