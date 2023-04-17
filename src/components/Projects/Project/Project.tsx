@@ -5,6 +5,7 @@ type ProjectPropsType = {
     name: string
     desc: string
     img: string
+    url: string
 }
 
 const Project:FC<ProjectPropsType> = (props) => {
@@ -16,7 +17,7 @@ const Project:FC<ProjectPropsType> = (props) => {
     return (
         <div className={styles.project}>
             <div className={styles.projectImage} style={backgroundStyle}>
-                <a href="" className={styles.button}>watch</a>
+                <a href={props.url} target={'_blank'} className={styles.button}>watch</a>
             </div>
             <div className={styles.aboutProject}>
                 <h4 className={styles.projectName}>{props.name}</h4>
