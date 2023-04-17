@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 .contactForm {
-    width: 280px;
+    width: 320px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -16,4 +16,9 @@
 .contactForm textarea {
     resize: none;
     min-height: 100px;
+}
+@media screen and (max-width: 406px) {
+    .contactForm {
+        width: 100%;
+    }
 }

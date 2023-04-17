@@ -9,9 +9,13 @@ type ProjectPropsType = {
 
 const Project:FC<ProjectPropsType> = (props) => {
 
+    const backgroundStyle = {
+        backgroundImage: `url(${props.img})`,
+    }
+
     return (
         <div className={styles.project}>
-            <div className={styles.projectImage} >
+            <div className={styles.projectImage} style={backgroundStyle}>
                 <a href="" className={styles.button}>watch</a>
             </div>
             <div className={styles.aboutProject}>

@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './Skills.module.css'
-import Skill from "./Skill/Skill";
+import Skill from './Skill/Skill';
 import styleContainer from '../../common/styles/Container.module.css'
+import Title from '../../common/components/Title';
 
 const Skills = () => {
 
@@ -16,7 +17,7 @@ const Skills = () => {
     return (
         <div className={styles.skillsBlock}>
             <div className={`${styles.skillsContainer} ${styleContainer.container}`}>
-                <h2 className={styles.title}>My Skills</h2>
+                <Title title={'My Skills'}/>
                 <div className={styles.skills}>
                     {skills}
                 </div>
