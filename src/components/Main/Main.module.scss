@@ -1,10 +1,11 @@
 @import './src/common/styles/sass/variables';
 
 .mainBlock {
-  padding: 50px 0 50px 0;
+  padding: 130px 0 50px 0;
   min-height: 100vh;
   background: linear-gradient(0deg, #020312, rgba(2, 20, 35, 0.20)), url("../../assets/images/background/pexels-neo-2653362.jpg") center;
   background-size: cover;
+
   .greeting {
     width: 387px;
     color: $textColor;
@@ -39,6 +40,5 @@
         height: auto;
       }
     }
-
   }
 }

@@ -18,7 +18,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 5px;
-      justify-content: space-between;
+      justify-content: center;
       width: 100%;
       @media screen and (max-width: 635px) {
         .skills {
@@ -28,6 +28,11 @@
       @media screen and (max-width: 953px) {
         .skills {
           justify-content: space-around;
+        }
+      }
+      @media screen and (max-width: 607px) {
+        .skills {
+          justify-content: center;
         }
       }
     }

@@ -5,12 +5,13 @@ import githubIcon from '../../assets/images/footerContacts/github-icon.png'
 import telegramIcon from '../../assets/images/footerContacts/telegram-icon.png'
 import linkedInIcon from '../../assets/images/footerContacts/linkedin-icon.png'
 import emailIcon from '../../assets/images/footerContacts/email-icon.png'
+import Title from "../../common/components/Title";
 
 const Footer = () => {
     return (
         <div className={styles.footerBlock}>
             <div className={`${styleContainer.container} ${styles.footerContainer}`}>
-                <h2 className={styles.title}>Sadovskiy Anton</h2>
+                <Title title={'You can find me here'} fontSize={25}/>
                 <div className={styles.feedbackContainer}>
                     <a href={'https://t.me/antonnchik'} target={'_blank'}>
                         <div className={styles.feedbackIcon}>

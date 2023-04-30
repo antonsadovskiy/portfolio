@@ -2,8 +2,10 @@
 @import './src/common/styles/sass/variables';
 
 .header {
-    height: 80px;
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    height: 60px;
     background-color: $bgSecondColor;
-    //background-color: lightblue;
     @include flex(flex-end, center, '', '', '');
 }
