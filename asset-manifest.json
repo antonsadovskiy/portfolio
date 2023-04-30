@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.841bf64a.css",
-    "main.js": "/portfolio/static/js/main.02d37772.js",
+    "main.css": "/portfolio/static/css/main.d92227fa.css",
+    "main.js": "/portfolio/static/js/main.7f59ad60.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/pexels-neo-2653362.jpg": "/portfolio/static/media/pexels-neo-2653362.a2e3ef5fef2cddde8f27.jpg",
+    "static/media/videoblocks-professional-programmer-writing-a-programming-code_r6gocwv-kz_thumbnail-1080_01.png": "/portfolio/static/media/videoblocks-professional-programmer-writing-a-programming-code_r6gocwv-kz_thumbnail-1080_01.f8146c06065e05997d4a.png",
     "static/media/todolistImg.jpg": "/portfolio/static/media/todolistImg.939dda4ebc6390aaa6a9.jpg",
     "static/media/socialnetworkImg.jpg": "/portfolio/static/media/socialnetworkImg.2c09b611725b68a040e1.jpg",
     "static/media/React-icon.png": "/portfolio/static/media/React-icon.8a6fc0a24a800d1e0f4a.png",
@@ -18,12 +19,12 @@
     "static/media/Redux-icon.svg": "/portfolio/static/media/Redux-icon.0e4fb1c819ac4c060c92343147d4ccf7.svg",
     "static/media/git-icon.svg": "/portfolio/static/media/git-icon.b3f73afb1361d47dd238f8e5e884ff06.svg",
     "index.html": "/portfolio/index.html",
-    "main.841bf64a.css.map": "/portfolio/static/css/main.841bf64a.css.map",
-    "main.02d37772.js.map": "/portfolio/static/js/main.02d37772.js.map",
+    "main.d92227fa.css.map": "/portfolio/static/css/main.d92227fa.css.map",
+    "main.7f59ad60.js.map": "/portfolio/static/js/main.7f59ad60.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.841bf64a.css",
-    "static/js/main.02d37772.js"
+    "static/css/main.d92227fa.css",
+    "static/js/main.7f59ad60.js"
   ]
 }
