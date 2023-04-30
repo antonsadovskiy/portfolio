@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Projects.module.css'
+import styles from './Projects.module.scss'
 import styleContainer from '../../common/styles/Container.module.css'
 import Project from './Project/Project';
 import todolistImg from '../../assets/images/todolistImg.jpg'

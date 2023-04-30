@@ -1,0 +1,13 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+.nav {
+  border: 1px solid;
+  @include flex(space-between, '', '', '', '');
+  width: 300px;
+
+  a {
+    text-decoration: none;
+    color: $textColor;
+  }
+}

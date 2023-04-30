@@ -1,0 +1,44 @@
+@import "/src/common/styles/sass/variables.scss";
+
+.skillsBlock {
+  padding: 50px 0 50px 0;
+  min-height: 100vh;
+  background-color: $bgFirstColor;
+
+  .skillsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .title {
+      background-color: darkgray;
+    }
+
+    .skills {
+      //border: 1px solid;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      justify-content: space-between;
+      width: 100%;
+      @media screen and (max-width: 635px) {
+        .skills {
+          justify-content: center;
+        }
+      }
+      @media screen and (max-width: 953px) {
+        .skills {
+          justify-content: space-around;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

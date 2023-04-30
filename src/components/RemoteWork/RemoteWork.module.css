@@ -1,6 +1,7 @@
 .remoteWorkBlock {
     padding: 50px 0 50px 0;
     min-height: 30vh;
+    background-color: rgba(2, 3, 25, 1);
 }
 .remoteWorkContainer {
     border: 1px solid;

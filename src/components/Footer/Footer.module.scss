@@ -1,0 +1,55 @@
+@import './src/common/styles/sass/mixins';
+@import './src/common/styles/sass/variables';
+
+.footerBlock {
+  padding: 50px 0 50px 0;
+  min-height: 40vh;
+  background-color: $bgFirstColor;
+
+  .footerContainer {
+    border: 1px solid;
+    @include flex(flex-start, center, column, '', '');
+    text-align: center;
+    flex: 1 1 160px;
+
+    .title {
+      background-color: moccasin;
+    }
+
+    .feedbackContainer {
+      border: 1px solid;
+      @include flex('', '', '', wrap, 100px);
+
+      .feedbackIcon {
+        width: 50px;
+        height: 50px;
+        background: #12141c;
+        border-radius: 50%;
+        transition: all 0.4s ease;
+        @include flex(center, center, '', '', '');
+
+        img {
+          width: 70%;
+          height: 70%;
+        }
+      }
+
+      .feedbackIcon:hover {
+        background: $primaryColor;
+      }
+      @media screen and (max-width: 629px) {
+        justify-content: center;
+      }
+    }
+    .rights {
+      margin: 30px 0 0 0;
+      color: #dfdfdf;
+      letter-spacing: 0.5px;
+      font-size: 15px;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+}
+
+
+

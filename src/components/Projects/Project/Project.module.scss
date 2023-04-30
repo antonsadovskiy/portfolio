@@ -1,0 +1,70 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+.project {
+  width: 400px;
+  background-color: #12141c;
+  @include flex('', '', column, '', '');
+
+  .projectImage {
+    position: relative;
+    @include flex(center, center, '', '', '');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: black;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      opacity: 0.4;
+      transition: all 3s ease;
+    }
+    .button {
+      position: relative;
+      z-index: 1;
+      font-family: 'Rubik', sans-serif;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: $textColor;
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: $primaryColor;
+    }
+  }
+
+  .aboutProject {
+    @include flex('', '', column, '', '');
+
+    .projectName {
+      font-family: 'Rubik', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: $textColor;
+      width: 200px;
+      margin: 20px 0 0 20px;
+    }
+    .projectDescription {
+      letter-spacing: 1px;
+      font-family: 'Open Sans', sans-serif;
+      text-align: left;
+      font-size: 0.875rem;
+      color: #dfdfdf;
+      margin: 10px 20px 20px 20px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

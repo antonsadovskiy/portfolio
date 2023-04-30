@@ -1,0 +1,17 @@
+@import './sass/variables.scss';
+@import './sass/mixins.scss';
+
+.button {
+    border: none;
+    width: 80px;
+    height: 35px;
+    background-color: $primaryColor;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $textColor;
+    transition: all 1s ease;
+}
+.button:hover {
+    background-color: #ea3a61;
+}

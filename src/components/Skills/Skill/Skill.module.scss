@@ -1,0 +1,30 @@
+@import './src/common/styles/sass/variables';
+@import './src/common/styles/sass/mixins';
+
+.skill {
+  @include flex('', center, column, '', 10px);
+  text-align: center;
+  padding: 20px;
+
+  .icon {
+    border: 1px inset darkslategray;
+    border-radius: 50%;
+    background-color: #12141c;
+    width: 120px;
+    height: 120px;
+    @include flex(center, center, '', '', '');
+
+    img {
+      height: 50px;
+    }
+  }
+
+  .technologyName {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: $textColor;
+    width: 200px;
+  }
+}
