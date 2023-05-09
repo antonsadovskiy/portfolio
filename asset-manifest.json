@@ -1,30 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d92227fa.css",
-    "main.js": "/portfolio/static/js/main.7f59ad60.js",
+    "main.css": "/portfolio/static/css/main.62616bac.css",
+    "main.js": "/portfolio/static/js/main.c1caaefe.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/pexels-neo-2653362.jpg": "/portfolio/static/media/pexels-neo-2653362.a2e3ef5fef2cddde8f27.jpg",
     "static/media/videoblocks-professional-programmer-writing-a-programming-code_r6gocwv-kz_thumbnail-1080_01.png": "/portfolio/static/media/videoblocks-professional-programmer-writing-a-programming-code_r6gocwv-kz_thumbnail-1080_01.f8146c06065e05997d4a.png",
     "static/media/todolistImg.jpg": "/portfolio/static/media/todolistImg.939dda4ebc6390aaa6a9.jpg",
     "static/media/socialnetworkImg.jpg": "/portfolio/static/media/socialnetworkImg.2c09b611725b68a040e1.jpg",
-    "static/media/React-icon.png": "/portfolio/static/media/React-icon.8a6fc0a24a800d1e0f4a.png",
+    "static/media/react.png": "/portfolio/static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/me.jpg": "/portfolio/static/media/me.2e7b5930d28b84d80536.jpg",
-    "static/media/uniTests-icon.svg": "/portfolio/static/media/uniTests-icon.a759800bfe54cde7de6676ac7a6dc325.svg",
-    "static/media/HTML5-icon.png": "/portfolio/static/media/HTML5-icon.3fa3e93660e6ed512957.png",
+    "static/media/unit-tests.svg": "/portfolio/static/media/unit-tests.a759800bfe54cde7de6676ac7a6dc325.svg",
+    "static/media/html.png": "/portfolio/static/media/html.3fa3e93660e6ed512957.png",
+    "static/media/map.jpg": "/portfolio/static/media/map.5e743798e9340014c9dc.jpg",
     "static/media/telegram-icon.png": "/portfolio/static/media/telegram-icon.f66dc427e0b7a3025e71.png",
-    "static/media/CSS3-icon.png": "/portfolio/static/media/CSS3-icon.58dfbebae4a02001b50e.png",
-    "static/media/TS-icon.png": "/portfolio/static/media/TS-icon.0f1cc93b573e0ea540dc.png",
+    "static/media/css.png": "/portfolio/static/media/css.58dfbebae4a02001b50e.png",
+    "static/media/typescript.png": "/portfolio/static/media/typescript.0f1cc93b573e0ea540dc.png",
     "static/media/github-icon.png": "/portfolio/static/media/github-icon.65a029dd14ae5c405656.png",
-    "static/media/Storybook-icon.svg": "/portfolio/static/media/Storybook-icon.c143760c5be7f175b06e6be31349892f.svg",
-    "static/media/Redux-icon.svg": "/portfolio/static/media/Redux-icon.0e4fb1c819ac4c060c92343147d4ccf7.svg",
-    "static/media/git-icon.svg": "/portfolio/static/media/git-icon.b3f73afb1361d47dd238f8e5e884ff06.svg",
+    "static/media/storybook.svg": "/portfolio/static/media/storybook.c143760c5be7f175b06e6be31349892f.svg",
+    "static/media/redux.svg": "/portfolio/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
+    "static/media/git.svg": "/portfolio/static/media/git.b3f73afb1361d47dd238f8e5e884ff06.svg",
     "index.html": "/portfolio/index.html",
-    "main.d92227fa.css.map": "/portfolio/static/css/main.d92227fa.css.map",
-    "main.7f59ad60.js.map": "/portfolio/static/js/main.7f59ad60.js.map",
+    "main.62616bac.css.map": "/portfolio/static/css/main.62616bac.css.map",
+    "main.c1caaefe.js.map": "/portfolio/static/js/main.c1caaefe.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d92227fa.css",
-    "static/js/main.7f59ad60.js"
+    "static/css/main.62616bac.css",
+    "static/js/main.c1caaefe.js"
   ]
 }
