@@ -3,7 +3,6 @@ import styles from './Skill.module.scss'
 
 type SkillsPropsType = {
     technology: string
-    description: string
     icon: string
 }
 

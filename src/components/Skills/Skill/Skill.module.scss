@@ -2,21 +2,32 @@
 @import './src/common/styles/sass/mixins';
 
 .skill {
+
   @include flex('', center, column, '', 10px);
   text-align: center;
   padding: 20px;
 
+
   .icon {
-    border: 1px inset darkslategray;
+    //border: 1px inset darkslategray;
     border-radius: 50%;
     background-color: #12141c;
     width: 120px;
     height: 120px;
+    transition: all 500ms;
+    box-shadow: 1px 2px 10px gray;
+
+
     @include flex(center, center, '', '', '');
 
     img {
       height: 50px;
+      transition: all 500ms;
     }
+  }
+
+  .icon:hover > img {
+    transform: scale(1.2);
   }
 
   .technologyName {

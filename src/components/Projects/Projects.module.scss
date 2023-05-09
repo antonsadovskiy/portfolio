@@ -10,7 +10,7 @@
     @include flex(flex-start, '', column,'', '');
 
     .projects {
-      @include flex(space-between, '', '', wrap, '');
+      @include flex(space-between, '', '', wrap, 40px);
       width: 100%;
 
       @media screen and (max-width: 1003px) {

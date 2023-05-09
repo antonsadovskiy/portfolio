@@ -3,56 +3,35 @@ import styles from './Skills.module.scss'
 import Skill from './Skill/Skill';
 import styleContainer from '../../common/styles/Container.module.css'
 import Title from '../../common/components/Title';
-import reactIcon from '../../assets/images/skills/React-icon.png'
-import tsIcon from '../../assets/images/skills/TS-icon.png'
-import reduxIcon from '../../assets/images/skills/Redux-icon.svg'
-import uniTestsIcon from '../../assets/images/skills/uniTests-icon.svg'
-import storybookIcon from '../../assets/images/skills/Storybook-icon.svg'
-import gitIcon from '../../assets/images/skills/git-icon.svg'
-import htmlIcon from '../../assets/images/skills/HTML5-icon.png'
-import cssIcon from '../../assets/images/skills/CSS3-icon.png'
+import react from '../../assets/images/skills/react.png'
+import ts from '../../assets/images/skills/typescript.png'
+import redux from '../../assets/images/skills/redux.svg'
+import unittests from '../../assets/images/skills/unit-tests.svg'
+import storybook from '../../assets/images/skills/storybook.svg'
+import git from '../../assets/images/skills/git.svg'
+import html from '../../assets/images/skills/html.png'
+import css from '../../assets/images/skills/css.png'
+import restAPI from '../../assets/images/skills/rest-api.png'
+import mui from '../../assets/images/skills/mui.png'
 
 const Skills = () => {
 
     const mySkills = [
-        {technology: 'React',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis natus non odit optio quam tenetur',
-            icon: reactIcon,
-        },
-        {technology: 'Redux',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis natus non odit optio quam tenetur',
-            icon: reduxIcon,
-        },
-        {technology: 'TypeScript',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis natus non odit optio quam tenetur',
-            icon: tsIcon,
-        },
-        {technology: 'Storybook',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis natus non odit optio quam tenetur',
-            icon: storybookIcon,
-        },
-        {technology: 'Unit tests',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis natus non odit optio quam tenetur',
-            icon: uniTestsIcon,
-        },
-        {technology: 'HTML',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis natus non odit optio quam tenetur',
-            icon: htmlIcon,
-        },
-        {technology: 'CSS',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis natus non odit optio quam tenetur',
-            icon: cssIcon,
-        },
-        {technology: 'Git',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis natus non odit optio quam tenetur',
-            icon: gitIcon,
-        },
+        {technology: 'React', icon: react},
+        {technology: 'Redux', icon: redux},
+        {technology: 'TypeScript', icon: ts},
+        {technology: 'Storybook', icon: storybook},
+        {technology: 'Unit tests', icon: unittests},
+        {technology: 'HTML', icon: html},
+        {technology: 'CSS', icon: css},
+        {technology: 'Git', icon: git},
+        {technology: 'Rest API', icon: restAPI},
+        {technology: 'Material UI', icon: mui},
     ]
 
     const skills = mySkills.map((skill, index) =>
         <Skill key={index}
                technology={skill.technology}
-               description={skill.description}
                icon={skill.icon}/>)
 
     return (

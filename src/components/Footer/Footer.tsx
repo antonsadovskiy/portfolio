@@ -34,7 +34,7 @@ const Footer = () => {
                         </div>
                     </a>
                 </div>
-                <h2 className={styles.rights}>© 2021 All rights reserved</h2>
+                <h2 className={styles.rights}>© 2023 All rights reserved</h2>
             </div>
         </div>
     );

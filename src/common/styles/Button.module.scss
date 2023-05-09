@@ -2,6 +2,7 @@
 @import './sass/mixins.scss';
 
 .button {
+    margin-top: 10px;
     border: none;
     width: 80px;
     height: 35px;
@@ -10,8 +11,10 @@
     font-size: 12px;
     text-transform: uppercase;
     color: $textColor;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
+    cursor: pointer
 }
 .button:hover {
     background-color: #ea3a61;
+    transform: translateY(-10px);
 }
