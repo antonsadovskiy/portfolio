@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5cdd6267.css",
-    "main.js": "/portfolio/static/js/main.17c8acab.js",
+    "main.css": "/portfolio/static/css/main.0af1a72f.css",
+    "main.js": "/portfolio/static/js/main.1e939dfd.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/videoblocks-professional-programmer-writing-a-programming-code_r6gocwv-kz_thumbnail-1080_01.png": "/portfolio/static/media/videoblocks-professional-programmer-writing-a-programming-code_r6gocwv-kz_thumbnail-1080_01.f8146c06065e05997d4a.png",
     "static/media/pexels-pixabay-247791.jpg": "/portfolio/static/media/pexels-pixabay-247791.79522a839fde595566a6.jpg",
@@ -23,12 +23,12 @@
     "static/media/redux.svg": "/portfolio/static/media/redux.0e4fb1c819ac4c060c92343147d4ccf7.svg",
     "static/media/git.svg": "/portfolio/static/media/git.b3f73afb1361d47dd238f8e5e884ff06.svg",
     "index.html": "/portfolio/index.html",
-    "main.5cdd6267.css.map": "/portfolio/static/css/main.5cdd6267.css.map",
-    "main.17c8acab.js.map": "/portfolio/static/js/main.17c8acab.js.map",
+    "main.0af1a72f.css.map": "/portfolio/static/css/main.0af1a72f.css.map",
+    "main.1e939dfd.js.map": "/portfolio/static/js/main.1e939dfd.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cdd6267.css",
-    "static/js/main.17c8acab.js"
+    "static/css/main.0af1a72f.css",
+    "static/js/main.1e939dfd.js"
   ]
 }
