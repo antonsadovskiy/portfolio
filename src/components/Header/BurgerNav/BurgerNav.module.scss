@@ -9,7 +9,7 @@
   width: 100%;
 
   .burgerNavItems {
-    height: 170px;
+    height: 0;
     position: absolute;
     padding-left: 30px;
     left: 0;
@@ -44,6 +44,7 @@
   }
 
   .show {
+    height: 170px;
     transform: translate(0, 0);
   }
 
