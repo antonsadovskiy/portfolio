@@ -8,11 +8,11 @@ const BurgerNav = () => {
 
     const [toggle, setToggle] = useState(false)
 
-    const changeToggle = () => {
-        setToggle(!toggle)
-    }
+    const changeToggle = () => setToggle(!toggle)
 
-    const burgerStyle = toggle ? style.show : style.burgerNavItems
+    const burgerStyle = toggle
+        ? style.burgerNavItems + " " + style.show
+        : style.burgerNavItems
 
     return (
         <div className={style.burgerNav}>
@@ -57,8 +57,8 @@ const BurgerNav = () => {
             <div className={style.burgerButton} onClick={changeToggle}>
                 {
                     toggle
-                        ? <img src={cross} width={'20px'} height={'20px'} alt=""/>
-                        : <img src={burger} width={'25px'} height={'25px'} alt=""/>
+                        ? <img src={cross} width={'25px'} height={'25px'} alt=""/>
+                        : <img src={burger} width={'30px'} height={'30px'} alt=""/>
                 }
             </div>
         </div>

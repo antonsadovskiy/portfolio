@@ -8,4 +8,8 @@
     height: 60px;
     background: rgba(2, 3, 18, 1);
     @include flex(flex-end, center, '', '', '');
+
+    @media screen and (max-width: 530px) {
+        height: 80px;
+    }
 }
