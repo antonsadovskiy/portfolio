@@ -1,12 +1,8 @@
 import React, {FC} from 'react';
 import styles from './Skill.module.scss'
+import {SkillType} from "../Skills";
 
-type SkillsPropsType = {
-    technology: string
-    icon: string
-}
-
-const Skill:FC<SkillsPropsType> = (props) => {
+const Skill: FC<SkillType> = (props) => {
     return (
         <div className={styles.skill}>
             <div className={styles.icon}>

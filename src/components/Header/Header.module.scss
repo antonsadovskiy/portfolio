@@ -6,6 +6,6 @@
     z-index: 2;
     position: fixed;
     height: 60px;
-    background-color: $bgSecondColor;
+    background: rgba(2, 3, 18, 1);
     @include flex(flex-end, center, '', '', '');
 }

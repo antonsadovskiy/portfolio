@@ -13,10 +13,18 @@ import html from '../../assets/images/skills/html.png'
 import css from '../../assets/images/skills/css.png'
 import restAPI from '../../assets/images/skills/rest-api.png'
 import mui from '../../assets/images/skills/mui.png'
+import ant from '../../assets/images/skills/ant.png'
+import formik from '../../assets/images/skills/formik.png'
+import {Slide} from "react-awesome-reveal";
+
+export type SkillType = {
+    technology: string
+    icon: string
+}
 
 const Skills = () => {
 
-    const mySkills = [
+    const mySkills: SkillType[] = [
         {technology: 'React', icon: react},
         {technology: 'Redux', icon: redux},
         {technology: 'TypeScript', icon: ts},
@@ -27,6 +35,8 @@ const Skills = () => {
         {technology: 'Git', icon: git},
         {technology: 'Rest API', icon: restAPI},
         {technology: 'Material UI', icon: mui},
+        {technology: 'Ant Design', icon: ant},
+        {technology: 'Formik', icon: formik},
     ]
 
     const skills = mySkills.map((skill, index) =>
@@ -36,7 +46,7 @@ const Skills = () => {
 
     return (
         <div className={styles.skillsBlock}>
-            <div className={`${styles.skillsContainer} ${styleContainer.container}`}>
+            <div id={'skills'} className={`${styles.skillsContainer} ${styleContainer.container}`}>
                 <Title title={'My Skills'}/>
                 <div className={styles.skills}>
                     {skills}

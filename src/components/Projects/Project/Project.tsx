@@ -1,14 +1,8 @@
 import React, {FC} from 'react';
 import styles from './Project.module.scss'
+import {ProjectType} from "../Projects";
 
-type ProjectPropsType = {
-    name: string
-    desc: string
-    img: string
-    url: string
-}
-
-const Project:FC<ProjectPropsType> = (props) => {
+const Project: FC<ProjectType> = (props) => {
 
     const backgroundStyle = {
         backgroundImage: `url(${props.img})`,
@@ -20,8 +14,11 @@ const Project:FC<ProjectPropsType> = (props) => {
                 <a href={props.url} target={'_blank'} className={styles.button}>watch</a>
             </div>
             <div className={styles.aboutProject}>
-                <h4 className={styles.projectName}>{props.name}</h4>
-                <div className={styles.projectDescription}>{props.desc}</div>
+                <h4 className={styles.projectName}>{props.projectName}</h4>
+                <div className={styles.projectDescription}>
+                    Applied technologies:
+                    <div>{props.description}</div>
+                </div>
             </div>
         </div>
     );

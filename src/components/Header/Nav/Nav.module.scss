@@ -3,23 +3,33 @@
 
 .nav {
   border: 1px solid;
-  @include flex(flex-end, center, row-reverse, '', '');
-  width: 300px;
+  @include flex(flex-end, center, row, '', 20px);
+  margin-right: 100px;
 
-  .navContainer {
-    @include flex(flex-end, center, '', '', 30px);
+  a {
+    font-family: $fontFamily;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    color: #dfdfdf;
+    cursor: pointer;
 
-    a {
-      font-family: $fontFamily;
-      font-weight: 500;
-      text-transform: uppercase;
-      text-align: center;
-      color: #dfdfdf;
+    &:hover {
+      color: $primaryColor;
     }
   }
 
-  a {
-    text-decoration: none;
-    color: $textColor;
+  .active {
+    font-family: $fontFamily;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    color: $primaryColor;
+  }
+
+
+  @media screen and (max-width: 530px) {
+    display: none;
   }
 }
+

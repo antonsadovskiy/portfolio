@@ -1,17 +1,46 @@
 import React from 'react';
 import style from './Nav.module.scss'
-import styleContainer from '../../../common/styles/Container.module.css'
-
+import {Link} from "react-scroll";
 
 const Nav = () => {
     return (
-        <div className={`${styleContainer.container} ${style.nav}`}>
-            <div className={style.navContainer}>
-                <a href="">Main</a>
-                <a href="">Skills</a>
-                <a href="">Projects</a>
-                <a href="">Contacts</a>
-            </div>
+        <div className={style.nav}>
+            <Link activeClass={style.active}
+                  to="main"
+                  spy={true}
+                  smooth={true}
+                  offset={0}
+                  duration={500}
+            >
+                Main
+            </Link>
+            <Link activeClass={style.active}
+                  to="skills"
+                  spy={true}
+                  smooth={true}
+                  offset={10}
+                  duration={500}
+            >
+                Skills
+            </Link>
+            <Link activeClass={style.active}
+                  to="projects"
+                  spy={true}
+                  smooth={true}
+                  offset={-50}
+                  duration={500}
+            >
+                Projects
+            </Link>
+            <Link activeClass={style.active}
+                  to="contacts"
+                  spy={true}
+                  smooth={true}
+                  offset={-40}
+                  duration={500}
+            >
+                Contacts
+            </Link>
         </div>
     );
 };

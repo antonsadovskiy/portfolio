@@ -6,7 +6,7 @@ import styleButton from '../../common/styles/Button.module.scss'
 
 const Contacts = () => {
     return (
-        <div className={styles.contactBlock}>
+        <div id={'contacts'} className={styles.contactBlock}>
             <div className={`${styleContainer.container} ${styles.contactsContainer}`}>
                 <Title title={'Contacts'}/>
                 <form className={styles.contactForm}>
