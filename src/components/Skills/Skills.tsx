@@ -15,7 +15,6 @@ import restAPI from '../../assets/images/skills/rest-api.png'
 import mui from '../../assets/images/skills/mui.png'
 import ant from '../../assets/images/skills/ant.png'
 import formik from '../../assets/images/skills/formik.png'
-import {Slide} from "react-awesome-reveal";
 
 export type SkillType = {
     technology: string

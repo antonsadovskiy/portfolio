@@ -3,6 +3,7 @@ import style from './BurgerNav.module.scss'
 import {Link} from "react-scroll";
 import burger from '../../../assets/images/burger.png'
 import cross from '../../../assets/images/cross.png'
+import {motion} from "framer-motion";
 
 const BurgerNav = () => {
 
@@ -57,8 +58,10 @@ const BurgerNav = () => {
             <div className={style.burgerButton} onClick={changeToggle}>
                 {
                     toggle
-                        ? <img src={cross} width={'25px'} height={'25px'} alt=""/>
-                        : <img src={burger} width={'30px'} height={'30px'} alt=""/>
+                        ? <motion.img whileHover={{scale: 1.2}} whileTap={{scale: 0.8}} src={cross} width={'25px'}
+                                      height={'25px'} alt=""/>
+                        : <motion.img whileHover={{scale: 1.2}} whileTap={{scale: 0.8}} src={burger} width={'30px'}
+                                      height={'30px'} alt=""/>
                 }
             </div>
         </div>

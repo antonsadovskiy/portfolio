@@ -5,9 +5,8 @@ import Project from './Project/Project';
 import todolistImg from '../../assets/images/todolistImg.jpg'
 import socialNetworkImg from '../../assets/images/socialnetworkImg.jpg'
 import mapImg from '../../assets/images/map.jpg'
-// import counterImg from '../../assets/images/'
+import cardsImg from '../../assets/images/cards.jpg'
 import Title from '../../common/components/Title';
-import {Slide} from "react-awesome-reveal";
 
 export type ProjectType = {
     projectName: string
@@ -20,9 +19,9 @@ const Projects = () => {
 
     const myProjects: ProjectType[] = [
         {
-            projectName: 'Social Network',
-            description: 'React, Redux, TypeScript, Ant Design, Unit tests',
-            img: socialNetworkImg, url: 'https://antonsadovskiy.github.io/samurai-way-main/'
+            projectName: 'Training Cards',
+            description: 'React, Redux Toolkit, TypeScript, Material UI',
+            img: cardsImg, url: 'https://stydy-cards.vercel.app'
         },
         {
             projectName: 'Todo List',
@@ -30,9 +29,9 @@ const Projects = () => {
             img: todolistImg, url: 'https://antonsadovskiy.github.io/todolist'
         },
         {
-            projectName: 'Counter',
-            description: 'React, Redux, TypeScript, Local Storage, Material UI, Unit tests',
-            img: '', url: 'https://antonsadovskiy.github.io/counter/'
+            projectName: 'Social Network',
+            description: 'React, Redux, TypeScript, Ant Design, Unit tests',
+            img: socialNetworkImg, url: 'https://antonsadovskiy.github.io/samurai-way-main/'
         },
         {
             projectName: 'One Map - One Route',

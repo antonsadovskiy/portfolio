@@ -6,7 +6,7 @@ import ReactTypingEffect from "react-typing-effect";
 
 const Main = () => {
     return (
-        <div id={'main'}  className={styles.mainBlock}>
+        <div id={'main'} className={styles.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={styles.greeting}>
                     <span>Hi there</span>
